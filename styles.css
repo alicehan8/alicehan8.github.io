@@ -114,7 +114,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 50vh;
+    height: 65vh;
     font-size: 1.6rem;
   }
 
@@ -165,4 +165,42 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+
+.main {
+  /* background-color: #141414; */
+  background-color: white;
+}
+
+.main__container {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90vh;
+  /* background-color: #141414; */
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.main__content h1 {
+  font-size: 4rem;
+}
+
+.main__content h2 {
+  font-size: 3rem;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
